@@ -78,7 +78,8 @@ pinotdb>=0.3.3, <0.4
 psycopg2-binary==2.8.5
 pyhive[presto]>=0.4.0
 sqlalchemy-trino>=0.2
-fbprophet>=0.7.1, <0.8, pystan<3.0
+fbprophet>=0.7.1 
+<0.8, pystan<3.0
 sqlalchemy-redshift>=0.8.1, < 0.9
 snowflake-sqlalchemy>=1.2.3, <1.3
 sqlalchemy-teradata==0.9.0.dev0
