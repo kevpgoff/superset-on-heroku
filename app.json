@@ -7,7 +7,8 @@
     { "plan": "heroku-postgresql" }
   ],
   "buildpacks": [
-    { "url": "heroku/python" }
+    { "url": "heroku/python" },
+    { "url": "git://github.com/heroku/heroku-buildpack-python.git" }
   ],
   "env": {
     "SECRET_KEY": {
